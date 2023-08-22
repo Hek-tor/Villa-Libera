@@ -1,0 +1,46 @@
+.img_carousel {
+    height: 80vh;
+}
+
+.arrow {
+    width: 100px;
+    color: #000;
+}
+
+.testimoniales p {
+    text-align: center;
+}
+
+.card-img {
+
+    height: 100px;
+}
+
+.img-test {
+    position: relative;
+    top: -65px;
+    left: 39px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+.person_1 {
+    background-image: url(../img/testimoniales_1.webp);
+}
+
+.person_2 {
+    background-position-x: center;
+    background-image: url(../img/testimoniales_2.webp);
+}
+
+.person_3 {
+    background-position-x: center;
+    background-image: url(../img/testimoniales_3.webp);
+}
+
+.person_4 {
+    background-position-x: center;
+    background-image: url(../img/testimoniales_4.webp);
+}

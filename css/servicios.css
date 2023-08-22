@@ -1,0 +1,44 @@
+.img-thumb {
+    width: 500px;
+    height: 500px;
+}
+
+
+.price {
+    font-size: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+
+.price-table:hover {
+    transition: all 0.4s ease-out;
+    background-color: #00469b;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    z-index: 10;
+    border: none;
+}
+
+.price-table:hover * {
+    color: #fff;
+}

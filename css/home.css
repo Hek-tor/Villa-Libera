@@ -1,0 +1,115 @@
+* {
+    font-family: 'Urbanist', sans-serif;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+
+.banner {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin-top: 85px;
+}
+
+.title_banner {
+    display: flex;
+    justify-content: center;
+    padding-top: 60%;
+}
+
+.btn-banner {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #0644C6;
+}
+
+.btn-banner:hover {
+    transition: all 0.5s ease-in;
+    border: 2px solid #0644C6;
+    font-size: 1.2em;
+    color: #0644C6;
+    background-color: #fff;
+}
+
+.icon {
+    color: #032263;
+    font-size: 3em;
+}
+
+.icon_media {
+    padding: 15px;
+    color: #fff;
+    font-size: 5em;
+}
+
+.icon_media:hover {
+    color: #dae907;
+}
+
+.description {
+    font-size: 1.4em;
+}
+
+.content_home {
+    color: #fff;
+    background-color: #161616;
+}
+
+
+
+.subtitle_home {
+    font-size: 2em;
+}
+
+.text_home {
+    font-size: 1.2em;
+}
+
+.help_text {
+    font-weight: 500;
+}
+
+.content_card {
+    height: 450px;
+    background: rgba(255, 255, 255, 0.66);
+    border-radius: 16px;
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+}
+
+.about_us_banner {
+    display: flex;
+    position: relative;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-image: url(../img/residential.webp);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.about_txt {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.about_parra,
+.about_parra_2 {
+    font-size: 1.9em;
+}
+
+.map {
+    width: 100%;
+    height: 600px;
+}
+
+.accordion-button:hover {
+    background-color: #0321632f;
+}

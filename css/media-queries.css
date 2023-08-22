@@ -1,0 +1,89 @@
+/*DESKTOP*/
+
+@media(min-width: 1920px) {
+
+    .banner {
+        height: 600px;
+    }
+
+    .icon {
+        font-size: 5em;
+    }
+
+    .title_banner {
+        padding: 0 50px 0 50px;
+        font-size: 1.2em;
+        padding-top: 25%;
+    }
+
+    .content_home {
+        font-size: 1.3em;
+        height: 400px;
+    }
+
+    .content_home a {
+        padding: 20px;
+    }
+
+    .main_text {
+        text-align: initial;
+        font-size: 1.8em;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+
+/*MOBILE*/
+
+@media (max-width: 425px) {
+
+    .btn-whatsapp {
+        right: 5px;
+        padding: 8px;
+    }
+
+    .content_card {
+        padding: 25px;
+        height: 250px;
+    }
+
+    .about_us_banner {
+        width: auto;
+        height: 400px;
+    }
+
+    .about_txt {
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+    .about_parra {
+        padding: 0;
+        font-size: 1.5em;
+    }
+
+    .about_parra_2 {
+        display: none;
+    }
+
+    .img_carousel {
+        height: 250px;
+    }
+
+    .testimoniales p {
+        padding: 0px 20px;
+        text-align: justify;
+    }
+
+    .img-test {
+        left: 64px;
+    }
+
+    .video_yt {
+        width: 410px;
+        height: 250px;
+    }
+}
